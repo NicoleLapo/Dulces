@@ -2,47 +2,78 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Dulces Deliciosos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoológico Aventura</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
 
 <header>
-    <h1>Dulces Deliciosos 🍭</h1>
-    <p>Los mejores dulces para endulzar tu día</p>
+    <h1>Zoológico Aventura</h1>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#animales">Animales</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
 </header>
 
-<nav>
-    <a href="#">Inicio</a>
-    <a href="#">Productos</a>
-    <a href="#">Contacto</a>
-</nav>
+<section id="inicio" class="banner">
+    <h2>Bienvenidos al Zoológico</h2>
+    <p>Descubre la vida salvaje y aprende sobre los animales.</p>
+</section>
 
-<section>
-    <h2>Nuestros Dulces</h2>
+<section id="animales" class="contenedor">
+    <h2>Nuestros Animales</h2>
 
-    <div class="dulce">
-        <h3>Chocolate</h3>
-        <img src="imagenes/chocolates.jpg" alt="Chocolate">
-        <p>Dulce clásico hecho con cacao. ¡A todos les encanta!</p>
+    <div class="tarjeta">
+        <img src="https://via.placeholder.com/300" alt="León">
+        <h3>León</h3>
+        <p>El rey de la selva, fuerte y majestuoso.</p>
     </div>
 
-    <div class="dulce">
-        <h3>Caramelos</h3>
-        <img src="imagenes/caramelos.jpg" alt="Caramelos">
-        <p>Pequeños, dulces y de muchos sabores.</p>
+    <div class="tarjeta">
+        <img src="https://via.placeholder.com/300" alt="Elefante">
+        <h3>Elefante</h3>
+        <p>El animal terrestre más grande del mundo.</p>
     </div>
 
-    <div class="dulce">
-        <h3>Gomitas</h3>
-        <img src="imagenes/gomitas.jpg" alt="Gomitas">
-        <p>Coloridas y divertidas, perfectas para niños y jóvenes.</p>
+    <div class="tarjeta">
+        <img src="https://via.placeholder.com/300" alt="Jirafa">
+        <h3>Jirafa</h3>
+        <p>Con su largo cuello alcanza las hojas más altas.</p>
     </div>
 
 </section>
 
+<!-- 🔽 AQUÍ SE AGREGÓ LA GALERÍA -->
+<section id="galeria" class="contenedor">
+    <h2>Galería de Imágenes</h2>
+
+    <div class="tarjeta">
+        <img src="imagenes/leon.jpg" alt="Animal 1">
+    </div>
+
+    <div class="tarjeta">
+        <img src="imagenes/jira.jpg" alt="Animal 2">
+    </div>
+
+    <div class="tarjeta">
+        <img src="imagenes/bebra.jpg" alt="Animal 3">
+    </div>
+
+</section>
+<!-- 🔼 FIN DE LO AGREGADO -->
+
+<section id="contacto" class="contacto">
+    <h2>Contacto</h2>
+    <p>Email: zooaventura@gmail.com</p>
+    <p>Teléfono: 0999999999</p>
+</section>
+
 <footer>
-    <p>&copy; 2026 Dulces Deliciosos</p>
+    <p>© 2026 Zoológico Aventura</p>
 </footer>
 
 </body>
